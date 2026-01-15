@@ -2,18 +2,54 @@
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>אתי גינזבורג - שמלות ערב</title>
+    <meta http-equiv="refresh" content="0;url=https://student-disk-jeff-training.trycloudflare.com">
     <style>
-        body { font-family: Arial; text-align: center; padding: 50px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh; margin: 0; display: flex; align-items: center; justify-content: center; }
-        .container { background: rgba(255,255,255,0.1); padding: 40px; border-radius: 20px; }
-        h1 { margin-bottom: 20px; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+        }
+        h1 { font-size: 2em; margin-bottom: 20px; }
+        p { font-size: 1.2em; margin-bottom: 30px; }
+        a {
+            color: white;
+            background: rgba(255,255,255,0.2);
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        a:hover { background: rgba(255,255,255,0.3); }
+        .loading {
+            margin-top: 20px;
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>אתי גינזבורג - שמלות ערב</h1>
-        <p>השרת לא פעיל כרגע</p>
-        <p>אנא נסי שוב מאוחר יותר</p>
+        <p>מעבירה אותך למערכת הניהול...</p>
+        <a href="https://student-disk-jeff-training.trycloudflare.com">לחצי כאן אם הדף לא עובר אוטומטית</a>
+        <div class="loading">⏳ טוען...</div>
     </div>
+    <script>
+        // Fallback redirect
+        setTimeout(function() {
+            window.location.href = "https://student-disk-jeff-training.trycloudflare.com";
+        }, 1000);
+    </script>
 </body>
 </html>
